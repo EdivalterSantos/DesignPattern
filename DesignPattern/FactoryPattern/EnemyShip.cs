@@ -20,7 +20,7 @@ namespace FactoryPattern
 
         public void EnemyShipShoots()
         {
-            Debug.WriteLine(Name + " attacks and does " + AmtDemage + " demage ");
+            Debug.WriteLine(Name + " attacks and does " + AmtDemage + " demages ");
         }
 
     }
