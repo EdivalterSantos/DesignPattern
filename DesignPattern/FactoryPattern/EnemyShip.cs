@@ -14,7 +14,7 @@ namespace FactoryPattern
 
         public void DisplayEnemyShip()
         {
-            Debug.WriteLine(Name + " Is on the screen");
+            Debug.WriteLine(Name + " Is on the scree");
         }
 
         public void EnemyShipShoots()
