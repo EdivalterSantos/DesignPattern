@@ -7,7 +7,6 @@ namespace FactoryPattern
         public string Name { get; set; }
         public double AmtDemage { get; set; }
 
-
         public void FollowHeroShip()
         {
             Debug.WriteLine(Name + " Is following the hero");
@@ -22,6 +21,5 @@ namespace FactoryPattern
         {
             Debug.WriteLine(Name + " attacks and does " + AmtDemage + " demage ");
         }
-
     }
 }
