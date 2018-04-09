@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SingletonPattern
 {
@@ -10,6 +6,14 @@ namespace SingletonPattern
     {
         static void Main(string[] args)
         {
+            Singleton fromEmployee = Singleton.Instance;
+            fromEmployee.PrintDetails("This is the first message");
+
+            Singleton fromStudent = Singleton.Instance;
+            fromStudent.PrintDetails("This is the second message");
+
+            Console.ReadLine();
+
         }
     }
 }

@@ -1,69 +1,37 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Threading.Thread;
 
 namespace SingletonPattern
 {
-    class Singleton
+     public sealed class Singleton
     {
-        private static Singleton _firstInstance = null;
 
-        private static string[] scrabbleLetters =
+        private static int counter = 0;
+        private static Singleton instance = null;
+
+
+        public static Singleton Instance
         {
-            "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U","V", "W", "X", "Y", "Z",
-            "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U",
-            "A", "B", "C", "D", "E", "F", "G", "H",  "R", "S", "T", "U","V", "W", "X", "Y", "Z",
-            "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U","V", "W", "X", "Y", "Z",
-            "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U","V", "W", "X", "Y", "Z",
-            "A", "B", "C", "D", "E", "N", "O", "P", "Q", "R", "S", "T", "U","V", "W", "X", "Y", "Z"
-        };
-
-        private List<string> _letterList = new List<string>(scrabbleLetters.ToList());
-
-        private static Boolean firstThread;
-
-        private Singleton() { }
-
-        public static Singleton GetInstance()
-        {
-            if (_firstInstance == null)
+            get
             {
-                if (firstThread)
+                if (instance == null)
                 {
-                    firstThread = false;
-                    CurrentThread.Start();
-                    Sleep(1000);
+                    instance = new Singleton();
                 }
 
-                _firstInstance = new Singleton();
+                return instance;
             }
-
-            return _firstInstance;
         }
 
-        public List<string> GetLetterList()
+        private Singleton()
         {
-            return _firstInstance._letterList;
+            counter++;
+            Console.WriteLine("Counter Value" + counter);
+
         }
 
-        public List<string> GetTiles(int howManyTiles)
+        public void PrintDetails(string message)
         {
-            List<string> tilesToSend = new List<string>();
-
-            for (int i = 0; i <= howManyTiles; i++)
-            {
-                tilesToSend.Add(_firstInstance._letterList.);
-
-                
-            }
-
-           return tilesToSend;
+           Console.WriteLine(message);
         }
-
-
-
     }
 }
