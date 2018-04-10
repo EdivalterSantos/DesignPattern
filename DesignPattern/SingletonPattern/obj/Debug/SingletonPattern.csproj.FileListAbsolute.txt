@@ -1,7 +1,7 @@
 E:\DesignPattern\DesignPatterns\DesignPattern\SingletonPattern\bin\Debug\SingletonPattern.exe.config
 E:\DesignPattern\DesignPatterns\DesignPattern\SingletonPattern\bin\Debug\SingletonPattern.exe
 E:\DesignPattern\DesignPatterns\DesignPattern\SingletonPattern\bin\Debug\SingletonPattern.pdb
+E:\DesignPattern\DesignPatterns\DesignPattern\SingletonPattern\obj\Debug\SingletonPattern.csprojResolveAssemblyReference.cache
 E:\DesignPattern\DesignPatterns\DesignPattern\SingletonPattern\obj\Debug\SingletonPattern.csproj.CoreCompileInputs.cache
 E:\DesignPattern\DesignPatterns\DesignPattern\SingletonPattern\obj\Debug\SingletonPattern.exe
 E:\DesignPattern\DesignPatterns\DesignPattern\SingletonPattern\obj\Debug\SingletonPattern.pdb
-E:\DesignPattern\DesignPatterns\DesignPattern\SingletonPattern\obj\Debug\SingletonPattern.csprojResolveAssemblyReference.cache
