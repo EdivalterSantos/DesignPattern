@@ -5,3 +5,10 @@ E:\DesignPattern\DesignPattern\FactoryPattern\obj\Debug\FactoryPattern.csprojRes
 E:\DesignPattern\DesignPattern\FactoryPattern\obj\Debug\FactoryPattern.csproj.CoreCompileInputs.cache
 E:\DesignPattern\DesignPattern\FactoryPattern\obj\Debug\FactoryPattern.exe
 E:\DesignPattern\DesignPattern\FactoryPattern\obj\Debug\FactoryPattern.pdb
+E:\DesignPattern\DesignPatterns\DesignPattern\FactoryPattern\bin\Debug\FactoryPattern.exe.config
+E:\DesignPattern\DesignPatterns\DesignPattern\FactoryPattern\bin\Debug\FactoryPattern.exe
+E:\DesignPattern\DesignPatterns\DesignPattern\FactoryPattern\bin\Debug\FactoryPattern.pdb
+E:\DesignPattern\DesignPatterns\DesignPattern\FactoryPattern\obj\Debug\FactoryPattern.csprojResolveAssemblyReference.cache
+E:\DesignPattern\DesignPatterns\DesignPattern\FactoryPattern\obj\Debug\FactoryPattern.csproj.CoreCompileInputs.cache
+E:\DesignPattern\DesignPatterns\DesignPattern\FactoryPattern\obj\Debug\FactoryPattern.exe
+E:\DesignPattern\DesignPatterns\DesignPattern\FactoryPattern\obj\Debug\FactoryPattern.pdb
