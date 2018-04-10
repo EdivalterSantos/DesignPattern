@@ -1,31 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Command_Pattern
 {
     public class Television : IEletronicDevice
     {
+        private int _volume = 0;
         public void On()
         {
-            Console.WriteLine(" Tv on ");
+            Console.WriteLine(" Tv is on ");
         }
 
         public void Off()
         {
-            Console.WriteLine(" Tv off ");
+            Console.WriteLine(" Tv is off ");
         }
 
         public void VolumeUp()
         {
-            Console.WriteLine(" Volume up ");
+            _volume++;
+            Console.WriteLine(" Volume is up ");
         }
 
         public void VolumeDown()
         {
-            Console.WriteLine(" Volume down ");
+            _volume--;
+            Console.WriteLine(" Volume is down ");
         }
     }
 }

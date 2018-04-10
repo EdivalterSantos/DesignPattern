@@ -4,3 +4,10 @@ E:\DesignPattern\DesignPattern\DesignPattern\bin\Debug\DesignPattern.pdb
 E:\DesignPattern\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache
 E:\DesignPattern\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
 E:\DesignPattern\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb
+E:\DesignPattern\DesignPatterns\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe.config
+E:\DesignPattern\DesignPatterns\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe
+E:\DesignPattern\DesignPatterns\DesignPattern\DesignPattern\bin\Debug\DesignPattern.pdb
+E:\DesignPattern\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache
+E:\DesignPattern\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csproj.CoreCompileInputs.cache
+E:\DesignPattern\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
+E:\DesignPattern\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb
