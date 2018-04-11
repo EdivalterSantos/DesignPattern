@@ -1,4 +1,5 @@
-﻿namespace Command_Pattern
+﻿
+namespace Command_Pattern
 {
     class PlayWithRemotes
     {
@@ -10,7 +11,6 @@
             onPressed.Press();
 
             //------------------------------------------------------
-
 
             TurnTvOff offCommand = new TurnTvOff(device);
             onPressed = new DeviceButton(offCommand);

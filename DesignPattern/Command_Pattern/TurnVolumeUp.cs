@@ -1,9 +1,9 @@
-﻿using System;
+﻿
 namespace Command_Pattern
 {
     class TurnVolumeUp
     {
-        private ElectronicDevice _theDevice;
+        private readonly ElectronicDevice _theDevice;
 
         public TurnVolumeUp(ElectronicDevice newDevice)
         {
