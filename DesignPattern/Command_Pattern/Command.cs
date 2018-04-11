@@ -8,7 +8,7 @@ namespace Command_Pattern
 {
     interface Command
     {
-        void execute();
+        void Execute();
 
     }
 }

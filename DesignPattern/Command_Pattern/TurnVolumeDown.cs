@@ -15,7 +15,7 @@ namespace Command_Pattern
             _theDevice = newDevice;
         }
 
-        public void execute()
+        public void Execute()
         {
             _theDevice.VolumeDown();
         }

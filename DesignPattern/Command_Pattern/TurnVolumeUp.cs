@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Command_Pattern
 {
     class TurnVolumeUp
@@ -15,7 +10,7 @@ namespace Command_Pattern
             _theDevice = newDevice;
         }
 
-        public void execute()
+        public void Execute()
         {
             _theDevice.VolumeUp();
         }

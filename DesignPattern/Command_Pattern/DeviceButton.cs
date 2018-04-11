@@ -17,7 +17,7 @@ namespace Command_Pattern
 
         public void Press()
         {
-            _theCommand.execute();
+            _theCommand.Execute();
         }
     }
 }
